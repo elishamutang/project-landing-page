@@ -10,11 +10,6 @@ body {
 
 /* Header */
 
-h2 {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -22,38 +17,26 @@ a {
     font-family: Roboto, 'Times New Roman', Helvetica;
 }
 
+.logo {
+    border: 2px solid red;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
 ul {
-    margin: 0;
-    padding: 0;
+    text-decoration: none;
     list-style: none;
     display: flex;
     gap: 30px;
-    flex: 0 0 auto;
-    margin-right: 300px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    /* border: 2px solid red; */
-}
-
-.logo {
-    color: #f9faf8;
-    size: 24px;
-    flex: 0 0 auto;
-    /* border: 2px solid red; */
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 300px;
 }
 
 .header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
     background-color: #1f2937;
-    flex: 0 0 auto;
-    gap: 600px;
-    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 /* Main */
