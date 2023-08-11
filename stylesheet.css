@@ -1,7 +1,7 @@
 body {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: stretch;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
@@ -16,7 +16,6 @@ ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    /* margin: 0 450px; */
     flex-shrink: 0;
 }
 
@@ -30,7 +29,6 @@ a {
 .header h2 {
     color: #f9faf8;
     size: 24px;
-    /* margin-left: 450px; */
     flex: 0 0 auto;
 }
 
@@ -39,8 +37,8 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
+    min-height: auto;
     background-color: #1f2937;
-    flex: 1 0 auto;
     gap: 450px;
 }
 
@@ -50,11 +48,14 @@ a {
     display: flex;
     width: 100%;
     background-color: #1f2937;
-    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
 }
 
 .main-content {
-    margin: 100px 450px;
+    width: 450px;
+    /* margin: 100px 450px; */
     /* margin-top; margin-right; margin-bottom; margin-left */
 }
 
@@ -70,5 +71,5 @@ a {
 
 img {
     width: 500px;
-    margin: 100px 450px 100px 0;
+    /* margin: 100px 450px 100px 0; */
 }
