@@ -60,6 +60,7 @@ img {
     width: 500px;
     margin-bottom: 80px;
     border: 2px solid black;
+    border-radius: 8px;
 }
 
 .main-content {
@@ -85,7 +86,7 @@ img {
 
 button:hover {
     color: white;
-    background-color: rgb(91, 154, 241);
+    background-color: rgb(64, 141, 248);
 }
 
 .main-content h1 {
