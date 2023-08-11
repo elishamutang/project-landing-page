@@ -16,7 +16,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    margin: 0 450px;
+    /* margin: 0 450px; */
     flex-shrink: 0;
 }
 
@@ -30,16 +30,18 @@ a {
 .header h2 {
     color: #f9faf8;
     size: 24px;
-    margin-left: 450px;
+    /* margin-left: 450px; */
     flex: 0 0 auto;
 }
 
 .header {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #1f2937;
     flex: 1 0 auto;
+    gap: 450px;
 }
 
 /* Main */
@@ -47,13 +49,12 @@ a {
 .main {
     display: flex;
     width: 100%;
-    justify-content: space-between;
     background-color: #1f2937;
     flex-shrink: 0;
 }
 
 .main-content {
-    margin: 100px 0 100px 450px;
+    margin: 100px 450px;
     /* margin-top; margin-right; margin-bottom; margin-left */
 }
 
