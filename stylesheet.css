@@ -25,6 +25,8 @@ a {
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -37,6 +39,7 @@ ul {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    gap: 300px;
 }
 
 /* Main */
