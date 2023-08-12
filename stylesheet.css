@@ -74,7 +74,7 @@ img {
     margin: 0;
 }
 
-.main-content button {
+button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -159,6 +159,7 @@ button:hover {
     justify-content: center;
     padding: 80px 0;
     background-color: #E5E7EB;
+    overflow: hidden;
 }
 
 .quote-con {
@@ -173,7 +174,7 @@ button:hover {
 
 #actual-quote {
     font-style: italic;
-    line-height: 2;
+    line-height: 1.5;
     text-align: justify;
 }
 
@@ -181,6 +182,17 @@ button:hover {
     align-self: flex-end;
     font-size: 30px;
     font-weight: bolder;
+}
+
+/* Sign-up */
+
+.sign-up {
+    border: 2px solid red;
+    width: 100%;
+}
+
+.sign-up-con {
+    border: 2px dotted red;
 }
 
 /* Footer */
