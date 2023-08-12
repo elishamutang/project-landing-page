@@ -70,7 +70,7 @@ img {
 }
 
 .main-content {
-    width: 550px;
+    width: 500px;
     margin-bottom: 40px;
     flex-shrink: 0;
 }
@@ -132,6 +132,9 @@ button:hover {
 
 .mini-box p {
     width: 200px;
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
 }
 
 .boxes-header {
@@ -143,23 +146,32 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     text-align: center;
     max-width: 300px;
-    flex-shrink: 0;
+    height: 380px;
+    flex: 1 0 auto;
 }
 
 .mini-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 75%;
     flex: 0 0 auto;
     margin-top: 60px;
+    border: 2px solid red;
 }
 
 .mini-box img {
     width: inherit;
     height: inherit;
+}
+
+.char-quote {
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
 }
 
 /* Quote */
