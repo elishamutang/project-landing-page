@@ -58,7 +58,7 @@ ul {
 }
 
 img {
-    flex: 0 1 auto;
+    flex-shrink: 0;
     width: 500px;
     margin-bottom: 80px;
     border: 2px solid black;
@@ -68,6 +68,7 @@ img {
 .main-content {
     width: 500px;
     margin-bottom: 40px;
+    flex-shrink: 0;
 }
 
 .main-content h1 {
