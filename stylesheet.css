@@ -45,8 +45,9 @@ ul {
     justify-content: center;
     width: 100%;
     gap: 800px;
-    padding: 30px 0 80px 0;
+    padding: 20px 0 80px 0;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 /* Main */
@@ -121,9 +122,10 @@ button:hover {
     margin-top: 50px;
     margin-bottom: 100px;
     overflow: hidden;
+    flex-grow: 1;
 }
 
-.picture1, .picture2, .picture3, .picture4 {
+.picture1, .picture2, .picture3, .picture4, .picture5 {
     border: 2px solid rgb(46, 142, 239);
     width: 200px;
     height: 200px;
@@ -141,7 +143,7 @@ button:hover {
     font-weight: 900;
 }
 
-.box1, .box2, .box3, .box4{
+.box1, .box2, .box3, .box4, .box5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -156,7 +158,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 100%;
     flex: 0 0 auto;
     margin-top: 60px;
 }
@@ -187,6 +189,7 @@ button:hover {
     padding: 80px 0;
     background-color: #E5E7EB;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 .quote-con {
@@ -251,4 +254,5 @@ button:hover {
     align-items: center;
     justify-content: center;
     padding: 30px 0;
+    flex-grow: 1;
 }
