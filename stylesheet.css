@@ -112,6 +112,7 @@ button:hover {
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 
 .picture1, .picture2, .picture3, .picture4 {
