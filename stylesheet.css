@@ -149,6 +149,27 @@ button:hover {
     margin-top: 60px;
 }
 
+/* Quote */
+
+.quote {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.quote-con {
+    border: 2px solid red;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    font-size: 36px;
+}
+
 /* Footer */
 
 .footer {
