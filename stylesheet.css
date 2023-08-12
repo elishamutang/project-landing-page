@@ -40,6 +40,7 @@ ul {
     width: 100%;
     gap: 300px;
     padding: 30px 0 80px 0;
+    overflow: hidden;
 }
 
 /* Main */
@@ -53,6 +54,7 @@ ul {
     gap: 60px;
     background-color: #1f2937;
     flex-grow: 1;
+    overflow: hidden;
 }
 
 img {
@@ -97,6 +99,50 @@ button:hover {
 .main-content p {
     font-size: 18px;
     color:#e5e7ebee;
+}
+
+/* Boxes */
+
+.boxes {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.picture1, .picture2, .picture3, .picture4 {
+    border: 2px solid rgb(46, 142, 239);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.mini-box p {
+    width: 200px;
+}
+
+.box1, .box2, .box3, .box4{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+}
+
+
+.mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    flex: 0 0 auto;
+    margin: 30px 0;
+    overflow: hidden;
 }
 
 /* Footer */
