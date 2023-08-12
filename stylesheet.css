@@ -46,7 +46,6 @@ ul {
 /* Main */
 
 .main {
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,7 +103,6 @@ button:hover {
 /* Boxes */
 
 .boxes {
-    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -132,7 +130,6 @@ button:hover {
 }
 
 .box1, .box2, .box3, .box4{
-    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -163,7 +160,6 @@ button:hover {
 }
 
 .quote-con {
-    /* border: 2px solid red; */
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -187,12 +183,28 @@ button:hover {
 /* Sign-up */
 
 .sign-up {
-    border: 2px solid red;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .sign-up-con {
-    border: 2px dotted red;
+    width: 900px;
+    flex: 0 0 auto;
+    display: flex;
+    background-color: #4fc1fa;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px 0;
+    margin: 80px 0;
+    border-radius: 15px;
+}
+
+.sign-up-words {
+    color: #ffffff;
 }
 
 /* Footer */
