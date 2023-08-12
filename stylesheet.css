@@ -152,22 +152,34 @@ button:hover {
 /* Quote */
 
 .quote {
-    border: 2px solid red;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0;
+    padding: 80px 0;
+    background-color: #E5E7EB;
 }
 
 .quote-con {
-    border: 2px solid red;
-    width: 1200px;
+    /* border: 2px solid red; */
+    width: 1000px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     flex-grow: 0;
     font-size: 36px;
+}
+
+#actual-quote {
+    font-style: italic;
+    line-height: 2;
+    text-align: justify;
+}
+
+#author {
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 /* Footer */
