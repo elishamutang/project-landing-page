@@ -167,6 +167,12 @@ button:hover {
     height: inherit;
     border: 2px solid rgb(46, 142, 239);
     border-radius: 20%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.mini-box img:hover {
+    opacity: 1;
 }
 
 .char-quote {
